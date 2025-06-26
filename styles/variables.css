@@ -8,7 +8,6 @@
   --background-color: #fff;
   --button-color: #fff;
   --border: 2px solid #000;
-  --min-inline-size: 700px;
   --label-border: #fff;
   --main-text-color: #000;
   --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0px 2px, transparent 2px 4px),
@@ -18,4 +17,5 @@
   --contour-color: #000;
   --animation-fill-color: #FF0000;
   --core-color: #fff;
+  --inline-size: clamp(23.1875rem, 15.9472rem + 30.892vw, 43.75rem);
 }
