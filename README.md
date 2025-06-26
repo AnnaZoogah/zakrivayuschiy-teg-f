@@ -1,2 +1,2 @@
-Опубликованный сайт:
- https://annazoogah.github.io/zakrivayuschiy-teg-f/
+
+https://github.com/AnnaZoogah/zakrivayuschiy-teg-f.git
