@@ -15,7 +15,8 @@
   justify-items: center;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), "Inter", sans-serif;
+  font-variation-settings: "wght" 400;
   color: var(--main-text-color);
   font-size: var(--main-font-size);
   background-color: var(--background-color);
@@ -29,8 +30,7 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: 'wght' 400;
+    font-family: "Inter", sans-serif;
   }
 }
 
@@ -98,8 +98,7 @@
 
 .card-title {
   font-style: normal;
-  font-family: var(--main-font);
-  font-weight: var(--title-font-weight);
+  font-variation-settings: "wght" 700;
   font-size: var(--main-font-size);
   color: var(--main-text-color);
   line-height: normal;
@@ -152,9 +151,7 @@
   flex-direction: column;
   gap: 27px;
   padding: 25px 25px 26px 25px;
-  font-family: var(--main-font);
   font-size: var(--main-font-size);
-  font-weight: var(--content-font-weight), 400;
   color: var(--main-text-color);
   line-height: 116.667%;
   border-top: var(--border);
