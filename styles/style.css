@@ -17,7 +17,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
   color: var(--main-text-color);
-  font-size: var(--main-font-size), 18px;
+  font-size: var(--main-font-size);
   background-color: var(--background-color);
   padding-top: 100px;
   padding-bottom: 105px;
@@ -29,8 +29,8 @@
 
 @supports (font-variation-settings: normal) {
   .page {
-    font-family: "inter", sans-serif;
-    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: 'wght' 400;
   }
 }
 
@@ -97,7 +97,6 @@
 }
 
 .card-title {
-  font-size: 18px;
   font-style: normal;
   font-family: var(--main-font);
   font-weight: var(--title-font-weight);
