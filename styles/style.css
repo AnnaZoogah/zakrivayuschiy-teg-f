@@ -28,12 +28,6 @@
   background-repeat: no-repeat;
 }
 
-@supports (font-variation-settings: normal) {
-  .page {
-    font-family: "Inter", sans-serif;
-  }
-}
-
 .header {
   display: grid;
   align-items: center;
